@@ -1,216 +1,242 @@
-<GameContent>
-	<Collection  type="GenericGameElement">
-		<Quantity>5</Quantity>
-		<ElementData>
-			<Shape>
-				<Type>1</Type>
-				<RatioW>4</RatioW>
-				<RatioH>3</RatioH>
-			</Shape>
-			<Name>Guard</Name>
-			<FrontImage>frontGuard.png</FrontImage>
-			<BackImage>back.png</BackImage>
-				<Collection type="Information">
-					<Quantity>1</Quantity>
-					<Title>Guard</Title>
-					<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
-					<Value>1</Value>
-				</Collection>
-			<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
-			<ExternalValue>null</ExternalValue>  
-			<InternalValue>null</InternalValue>
-		</ElementData>
-	</Collection>
+<ZondaGame>
+	<GameContent>
+		<FixedElements>
+			<Collection type="GenericGameElement">
+				<Quantity>5</Quantity>
+				<ElementData>
+					<Shape>
+						<Type>1</Type>
+						<RatioW>4</RatioW>
+						<RatioH>3</RatioH>
+					</Shape>
+					<Name>Guard</Name>
+					<FrontImage>frontGuard.png</FrontImage>
+					<BackImage>back.png</BackImage>
+						<Collection type="Information">
+							<Quantity>1</Quantity>
+							<Title>Guard</Title>
+							<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
+							<Value>1</Value>
+						</Collection>
+					<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
+					<ExternalValue>null</ExternalValue>  
+					<InternalValue>null</InternalValue>
+				</ElementData>
+			</Collection>
 
-	<Collection  type="GenericGameElement">
-		<Quantity>2</Quantity>
-		<ElementData>
-			<Shape>
-				<Type>1</Type>
-				<RatioW>4</RatioW>
-				<RatioH>3</RatioH>
-			</Shape>
-			<Name>Priest</Name>
-			<FrontImage>frontPriest.png</FrontImage>
-			<BackImage>back.png</BackImage>
-				<Collection type="Information">
-					<Quantity>1</Quantity>
-					<Title>Priest</Title>
-					<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
-					<Value>2</Value>
-				</Collection>
-			<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
-			<ExternalValue>null</ExternalValue>  
-			<InternalValue>null</InternalValue>
-		</ElementData>
-	</Collection>
+			<Collection type="GenericGameElement">
+				<Quantity>2</Quantity>
+				<ElementData>
+					<Shape>
+						<Type>1</Type>
+						<RatioW>4</RatioW>
+						<RatioH>3</RatioH>
+					</Shape>
+					<Name>Priest</Name>
+					<FrontImage>frontPriest.png</FrontImage>
+					<BackImage>back.png</BackImage>
+						<Collection type="Information">
+							<Quantity>1</Quantity>
+							<Title>Priest</Title>
+							<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
+							<Value>2</Value>
+						</Collection>
+					<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
+					<ExternalValue>null</ExternalValue>  
+					<InternalValue>null</InternalValue>
+				</ElementData>
+			</Collection>
 
+			<Collection type="GenericGameElement">
+				<Quantity>2</Quantity>
+				<ElementData>
+					<Shape>
+						<Type>1</Type>
+						<RatioW>4</RatioW>
+						<RatioH>3</RatioH>
+					</Shape>
+					<Name>Baron</Name>
+					<FrontImage>frontGuard.png</FrontImage>
+					<BackImage>back.png</BackImage>
+						<Collection type="Information">
+							<Quantity>1</Quantity>
+							<Title>Baron</Title>
+							<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
+							<Value>3</Value>
+						</Collection>
+					<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
+					<ExternalValue>null</ExternalValue>  
+					<InternalValue>null</InternalValue>
+				</ElementData>
+			</Collection>
 
-	<Collection  type="GenericGameElement">
-		<Quantity>2</Quantity>
-		<ElementData>
-			<Shape>
-				<Type>1</Type>
-				<RatioW>4</RatioW>
-				<RatioH>3</RatioH>
-			</Shape>
-			<Name>Baron</Name>
-			<FrontImage>frontGuard.png</FrontImage>
-			<BackImage>back.png</BackImage>
-				<Collection type="Information">
-					<Quantity>1</Quantity>
-					<Title>Baron</Title>
-					<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
-					<Value>3</Value>
-				</Collection>
-			<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
-			<ExternalValue>null</ExternalValue>  
-			<InternalValue>null</InternalValue>
-		</ElementData>
-	</Collection>
+			<Collection type="GenericGameElement">
+				<Quantity>2</Quantity>
+				<ElementData>
+					<Shape>
+						<Type>1</Type>
+						<RatioW>4</RatioW>
+						<RatioH>3</RatioH>
+					</Shape>
+					<Name>Handmaid</Name>
+					<FrontImage>frontHandmaid.png</FrontImage>
+					<BackImage>back.png</BackImage>
+						<Collection type="Information">
+							<Quantity>1</Quantity>
+							<Title>Handmaid</Title>
+							<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
+							<Value>4</Value>
+						</Collection>
+					<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
+					<ExternalValue>null</ExternalValue>  
+					<InternalValue>null</InternalValue>
+				</ElementData>
+			</Collection>
 
+			<Collection type="GenericGameElement">
+				<Quantity>2</Quantity>
+				<ElementData>
+					<Shape>
+						<Type>1</Type>
+						<RatioW>4</RatioW>
+						<RatioH>3</RatioH>
+					</Shape>
+					<Name>Prince</Name>
+					<FrontImage>frontPrince.png</FrontImage>
+					<BackImage>back.png</BackImage>
+						<Collection type="Information">
+							<Quantity>1</Quantity>
+							<Title>Prince</Title>
+							<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
+							<Value>5</Value>
+						</Collection>
+					<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
+					<ExternalValue>null</ExternalValue>  
+					<InternalValue>null</InternalValue>
+				</ElementData>
+			</Collection>
 
-	<Collection  type="GenericGameElement">
-		<Quantity>2</Quantity>
-		<ElementData>
-			<Shape>
-				<Type>1</Type>
-				<RatioW>4</RatioW>
-				<RatioH>3</RatioH>
-			</Shape>
-			<Name>Handmaid</Name>
-			<FrontImage>frontHandmaid.png</FrontImage>
-			<BackImage>back.png</BackImage>
-				<Collection type="Information">
-					<Quantity>1</Quantity>
-					<Title>Handmaid</Title>
-					<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
-					<Value>4</Value>
-				</Collection>
-			<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
-			<ExternalValue>null</ExternalValue>  
-			<InternalValue>null</InternalValue>
-		</ElementData>
-	</Collection>
-
-	<Collection  type="GenericGameElement">
-		<Quantity>2</Quantity>
-		<ElementData>
-			<Shape>
-				<Type>1</Type>
-				<RatioW>4</RatioW>
-				<RatioH>3</RatioH>
-			</Shape>
-			<Name>Prince</Name>
-			<FrontImage>frontPrince.png</FrontImage>
-			<BackImage>back.png</BackImage>
-				<Collection type="Information">
-					<Quantity>1</Quantity>
-					<Title>Prince</Title>
-					<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
-					<Value>5</Value>
-				</Collection>
-			<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
-			<ExternalValue>null</ExternalValue>  
-			<InternalValue>null</InternalValue>
-		</ElementData>
-	</Collection>
-
-	<Collection  type="GenericGameElement">
-		<Quantity>1</Quantity>
-		<ElementData>
-			<Shape>
-				<Type>1</Type>
-				<RatioW>4</RatioW>
-				<RatioH>3</RatioH>
-			</Shape>
-			<Name>King</Name>
-			<FrontImage>frontKing.png</FrontImage>
-			<BackImage>back.png</BackImage>
-				<Collection type="Information">
-					<Quantity>1</Quantity>
-					<Title>King</Title>
-					<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
-					<Value>6</Value>
-				</Collection>
-			<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
-			<ExternalValue>null</ExternalValue>  
-			<InternalValue>null</InternalValue>
-		</ElementData>
-	</Collection>
-
-
-	<Collection  type="GenericGameElement">
-		<Quantity>1</Quantity>
-		<ElementData>
-			<Shape>
-				<Type>1</Type>
-				<RatioW>4</RatioW>
-				<RatioH>3</RatioH>
-			</Shape>
-			<Name>Countess</Name>
-			<FrontImage>frontCountess.png</FrontImage>
-			<BackImage>back.png</BackImage>
-				<Collection type="Information">
-					<Quantity>1</Quantity>
-					<Title>Countess</Title>
-					<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
-					<Value>7</Value>
-				</Collection>
-			<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
-			<ExternalValue>null</ExternalValue>  
-			<InternalValue>null</InternalValue>
-		</ElementData>
-	</Collection>
+			<Collection type="GenericGameElement">
+				<Quantity>1</Quantity>
+				<ElementData>
+					<Shape>
+						<Type>1</Type>
+						<RatioW>4</RatioW>
+						<RatioH>3</RatioH>
+					</Shape>
+					<Name>King</Name>
+					<FrontImage>frontKing.png</FrontImage>
+					<BackImage>back.png</BackImage>
+						<Collection type="Information">
+							<Quantity>1</Quantity>
+							<Title>King</Title>
+							<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
+							<Value>6</Value>
+						</Collection>
+					<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
+					<ExternalValue>null</ExternalValue>  
+					<InternalValue>null</InternalValue>
+				</ElementData>
+			</Collection>
 
 
-	<Collection type="GenericGameElement">
-		<Quantity>1</Quantity>
-		<ElementData>
-			<Shape>
-				<Type>1</Type>
-				<RatioW>4</RatioW>
-				<RatioH>3</RatioH>
-			</Shape>
-			<Name>Princess</Name>
-			<FrontImage>frontPrincess.png</FrontImage>
-			<BackImage>back.png</BackImage>
-				<Collection type="Information">
-					<Quantity>1</Quantity>
-					<Title>Princess</Title>
-					<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
-					<Value>8</Value>
-				</Collection>
-			<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
-			<ExternalValue>null</ExternalValue>  
-			<InternalValue>null</InternalValue>
-		</ElementData>
-	</Collection>
+			<Collection type="GenericGameElement">
+				<Quantity>1</Quantity>
+				<ElementData>
+					<Shape>
+						<Type>1</Type>
+						<RatioW>4</RatioW>
+						<RatioH>3</RatioH>
+					</Shape>
+					<Name>Countess</Name>
+					<FrontImage>frontCountess.png</FrontImage>
+					<BackImage>back.png</BackImage>
+						<Collection type="Information">
+							<Quantity>1</Quantity>
+							<Title>Countess</Title>
+							<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
+							<Value>7</Value>
+						</Collection>
+					<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
+					<ExternalValue>null</ExternalValue>  
+					<InternalValue>null</InternalValue>
+				</ElementData>
+			</Collection>
 
-	<!-- De momento dejemos el board de lado
-	<Component>
+			<Collection type="GenericGameElement">
+				<Quantity>1</Quantity>
+				<ElementData>
+					<Shape>
+						<Type>1</Type>
+						<RatioW>4</RatioW>
+						<RatioH>3</RatioH>
+					</Shape>
+					<Name>Princess</Name>
+					<FrontImage>frontPrincess.png</FrontImage>
+					<BackImage>back.png</BackImage>
+						<Collection type="Information">
+							<Quantity>1</Quantity>
+							<Title>Princess</Title>
+							<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
+							<Value>8</Value>
+						</Collection>
+					<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
+					<ExternalValue>null</ExternalValue>  
+					<InternalValue>null</InternalValue>
+				</ElementData>
+			</Collection>
+		<FixedElements>
 
-		<Collection type="Board">
-		<Quantity>1</Quantity>
-		<ElementData>
-			<Type>0</Type>
-			<WidthRatio>2</WidthRatio>
-			<HeightRatio>2</HeightRatio>
-			<Columns>null</Columns>
-			<Rows>null</Rows>
-			<Name>default</Name>
-			<Image>default</Image>
-		</ElementData>
-		</Collection>
-	</Component>
-	-->
-</GameContent>
+		<NonFixedElements>
+			<Collection type="Generic3DGameElement">
+				<Quantity>1</Quantity>
+				<ElementData>
+					<Shape>
+						<Type>1</Type>
+						<RatioW>4</RatioW>
+						<RatioH>3</RatioH>
+					</Shape>
+					<Name>Princess</Name>
+					<FrontImage>frontPrincess.png</FrontImage>
+					<BackImage>back.png</BackImage>
+						<Collection type="Information">
+							<Quantity>1</Quantity>
+							<Title>Princess</Title>
+							<Description>Name a non-Guard card and choose a player. If that player has that card, he or she is out of the ground.</Description>
+							<Value>8</Value>
+						</Collection>
+					<!-- No hacen falta pero sirven de ejemplo, se autocompletarian null -->
+					<ExternalValue>null</ExternalValue>  
+					<InternalValue>null</InternalValue>
+				</ElementData>
+			</Collection>
+		</NonFixedElements>
 
-<PlayerContent>
-	<!--Nothing to do here for now-->
-</PlayerContent>
+		<!-- De momento dejemos el board de lado
+		<Component>
 
-<GameOptions>
-	<MinPlayers>4</MinPlayers>
-	<MaxPlayers>4</MaxPlayers>
-</GameOptions>
+			<Collection type="Board">
+			<Quantity>1</Quantity>
+			<ElementData>
+				<Type>0</Type>
+				<WidthRatio>2</WidthRatio>
+				<HeightRatio>2</HeightRatio>
+				<Columns>null</Columns>
+				<Rows>null</Rows>
+				<Name>default</Name>
+				<Image>default</Image>
+			</ElementData>
+			</Collection>
+		</Component>
+		-->
+	<PlayerContent>
+		<!--Nothing to do here for now-->
+	</PlayerContent>
+
+	<GameOptions>
+		<MinPlayers>4</MinPlayers>
+		<MaxPlayers>4</MaxPlayers>
+	</GameOptions>
+
+	</GameContent>
+</ZondaGame>

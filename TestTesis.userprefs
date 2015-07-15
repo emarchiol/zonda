@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Source\PacketExtractor.cs">
     <Files>
-      <File FileName="Assets\Source\PacketExtractor.cs" Line="8" Column="2" />
+      <File FileName="Assets\Source\PacketExtractor.cs" Line="40" Column="25" />
+      <File FileName="Assets\Source\GenericGameElement.cs" Line="5" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
