@@ -1,7 +1,7 @@
 <ZondaGame>
 	<GameContent>
 		<FixedElements>
-			<Collection type="GenericGameElement">
+			<Collection type="GenericGameElement" quantity="5" name="Guard">
 				<Quantity>5</Quantity>
 				<ElementData>
 					<Shape>

@@ -4,11 +4,13 @@ using System.Xml;
 using System.IO;
 using System.Text;
 using System;
+using System.Xml.Serialization;
 
 public class PacketExtractor {
 
 	FileStream file;
 	String xmlGame;
+	string path = Application.persistentDataPath + "/loveLetter/loveLetter.xml";
 
 	//Abrir el XML y leerl
 	public void read(){
@@ -29,7 +31,6 @@ public class PacketExtractor {
 		}
 
 		XmlReader reader = XmlReader.Create(new StringReader(xmlGame));
-
 		reader.ReadToFollowing("Quantity");
 		//reader.MoveToFirstAttribute();
 		//string xmlValue = reader.Value;
@@ -39,5 +40,18 @@ public class PacketExtractor {
 			Debug.Log("Hurray encontre GenericGameElement");
 			Debug.Log (xmlValue);
 		//}
+	}
+
+	public void readSerialized(){
+		var serializer = new XmlSerializer(typeof(GenericGameElement));
+		var stream = new FileStream(path, FileMode.Open);
+		try{
+			GenericGameElement gge = serializer.Deserialize(stream) as GenericGameElement;
+			gge.printAtt ();
+			stream.Close();
+		}catch(Exception e){
+			Debug.Log("Invalid XML");
+			Debug.Log(e);
+		}
 	}
 }

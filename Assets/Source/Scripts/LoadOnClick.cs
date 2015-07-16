@@ -13,7 +13,7 @@ public class LoadOnClick : MonoBehaviour {
 
 	public void LoadGame(){
 		PacketExtractor gameExtractor = new PacketExtractor ();
-		gameExtractor.read();
+		gameExtractor.readSerialized();
 	}
 
 	public void Exit(){
