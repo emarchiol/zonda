@@ -12,8 +12,8 @@ public class LoadOnClick : MonoBehaviour {
 	}
 
 	public void LoadGame(){
-		PacketExtractor gameExtractor = new PacketExtractor ();
-		gameExtractor.readSerialized();
+		GameEnviroment ge = new GameEnviroment ();
+		ge.read();
 	}
 
 	public void Exit(){
