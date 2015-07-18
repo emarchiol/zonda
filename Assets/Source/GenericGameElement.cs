@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
+using System.Xml;
 
 public class GenericGameElement {
 
@@ -13,18 +15,14 @@ public class GenericGameElement {
 	public string ExternalValue;
 	public string InternalValue;
 	public int infoQuantity;
-	/*array de clases de attributos
-	struct information{
-		private string title;
-		private string description;
-		private string value;
-	}
-	List <information> infoValues = new List<information> ();
-	*/
+
+	[XmlArrayItemAttribute]
+	[XmlArray("AttrList")]
+	public List<GGEAttr> ggeAttr;
 
 	public GenericGameElement(){
 	}
-	public GenericGameElement(int type, int ratiow, int ratioh, string name,string frontimage,string backimage, string exvalue, string invalue){
+	public GenericGameElement(int type, int ratiow, int ratioh, string name,string frontimage,string backimage, string exvalue, string invalue, List<GGEAttr> attributes){
 		this.Type = type;
 		this.RatioH = ratioh;
 		this.RatioW = ratiow;
@@ -33,6 +31,7 @@ public class GenericGameElement {
 		this.BackImage = backimage;
 		this.ExternalValue = exvalue;
 		this.InternalValue = invalue;
+		this.ggeAttr = attributes;
 	}
 
 	public void printAtt(){
@@ -44,5 +43,10 @@ public class GenericGameElement {
 		Debug.Log (this.BackImage);
 		Debug.Log (this.ExternalValue);
 		Debug.Log (this.InternalValue);
+		foreach (var item in ggeAttr) {
+			Debug.Log(item.title);
+			Debug.Log(item.description);
+			Debug.Log(item.value);
+		}
 	}
 }
