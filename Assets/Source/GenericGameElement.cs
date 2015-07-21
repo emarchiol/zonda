@@ -20,8 +20,12 @@ public class GenericGameElement {
 	[XmlArray("AttrList")]
 	public List<GGEAttr> ggeAttr;
 
+	//=============================
+	//Constructores
+	//=============================
 	public GenericGameElement(){
 	}
+
 	public GenericGameElement(int type, int ratiow, int ratioh, string name,string frontimage,string backimage, string exvalue, string invalue, List<GGEAttr> attributes){
 		this.Type = type;
 		this.RatioH = ratioh;
@@ -34,6 +38,9 @@ public class GenericGameElement {
 		this.ggeAttr = attributes;
 	}
 
+	//=============================
+	//Metodos
+	//=============================
 	public void printAtt(){
 		Debug.Log (this.Name);
 		Debug.Log (this.Type);

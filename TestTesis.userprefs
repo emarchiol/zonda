@@ -1,12 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Source\GameEnviroment.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Source\Card.cs">
     <Files>
-      <File FileName="Assets\Source\GGEAttr.cs" Line="13" Column="1" />
-      <File FileName="Assets\Source\GameEnviroment.cs" Line="20" Column="21" />
-      <File FileName="Assets\Source\GenericGameElement.cs" Line="49" Column="26" />
-      <File FileName="Assets\Source\Scripts\LoadOnClick.cs" Line="15" Column="45" />
-      <File FileName="Assets\Source\Spawn.cs" Line="8" Column="1" />
+      <File FileName="Assets\Source\GGEAttr.cs" Line="8" Column="22" />
+      <File FileName="Assets\Source\GameEnviroment.cs" Line="21" Column="1" />
+      <File FileName="Assets\Source\GenericGameElement.cs" Line="18" Column="1" />
+      <File FileName="Assets\Source\Card.cs" Line="39" Column="74" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

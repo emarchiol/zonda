@@ -7,7 +7,7 @@ using System.Text;
 using System;
 using System.Xml.Serialization;
 
-public class GameEnviroment {
+public class GameEnviroment : MonoBehaviour{
 
 	List <GenericGameElement> gges = new List<GenericGameElement>();
 	FileStream file;
@@ -17,8 +17,21 @@ public class GameEnviroment {
 	string path = Application.persistentDataPath;
 	string gameName;
 
+	public Sprite sprite;
+
 	void spawnObjects(){
-		
+
+		//spawn object
+		GameObject objToSpawn = GameObject.CreatePrimitive(PrimitiveType.Cube);
+		//Add Components
+		objToSpawn.AddComponent<Rigidbody>();
+		objToSpawn.transform.position = new Vector3 (300, 120, -460);
+		for (int i=0; i<50; i++) {
+			Instantiate(objToSpawn);
+		}
+
+
+
 	}
 
 	//Abrir el XML y leerl
