@@ -6,6 +6,7 @@ using System.Xml;
 
 public class GenericGameElement {
 
+	//Atributos de juego
 	public int Type;
 	public int RatioW;
 	public int RatioH;
@@ -15,10 +16,11 @@ public class GenericGameElement {
 	public string ExternalValue;
 	public string InternalValue;
 	public int infoQuantity;
-
+	//Atributos para parseo xml
 	[XmlArrayItemAttribute]
 	[XmlArray("AttrList")]
 	public List<GGEAttr> ggeAttr;
+	//Atributos de unity para el manejo de objetos
 
 	//=============================
 	//Constructores
@@ -55,5 +57,9 @@ public class GenericGameElement {
 			Debug.Log(item.description);
 			Debug.Log(item.value);
 		}
+	}
+
+	public void SetType(int type){
+		this.Type = type;
 	}
 }

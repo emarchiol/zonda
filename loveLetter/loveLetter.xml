@@ -9,7 +9,7 @@
 						<RatioW>4</RatioW>
 						<RatioH>3</RatioH>
 					</Shape>
-					<Name>Guard</Name>
+					<Name>guard</Name>
 					<FrontImage>frontGuard.png</FrontImage>
 					<BackImage>back.png</BackImage>
 						<Collection type="Information">

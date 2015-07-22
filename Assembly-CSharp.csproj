@@ -46,12 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Source\Card.cs" />
      <Compile Include="Assets\Source\GGEAttr.cs" />
      <Compile Include="Assets\Source\GameEnviroment.cs" />
+     <Compile Include="Assets\Source\GameObjectGenerator.cs" />
      <Compile Include="Assets\Source\GenericGameElement.cs" />
-     <Compile Include="Assets\Source\Scripts\FileSelector.cs" />
-     <Compile Include="Assets\Source\Scripts\LoadOnClick.cs" />
+     <Compile Include="Assets\Source\Scripts\Load.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

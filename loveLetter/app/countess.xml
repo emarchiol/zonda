@@ -1,0 +1,10 @@
+<GenericGameElement>
+	<Type>1</Type>
+	<RatioW>4</RatioW>
+	<RatioH>3</RatioH>
+	<Name>Countess</Name>
+	<FrontImage>frontCountess.png</FrontImage>
+	<BackImage>back.png</BackImage>
+	<ExternalValue>null</ExternalValue>  
+	<InternalValue>null</InternalValue>
+</GenericGameElement>

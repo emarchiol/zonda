@@ -1,0 +1,10 @@
+<GenericGameElement>
+	<Type>1</Type>
+	<RatioW>4</RatioW>
+	<RatioH>3</RatioH>
+	<Name>King</Name>
+	<FrontImage>frontKing.png</FrontImage>
+	<BackImage>back.png</BackImage>
+	<ExternalValue>null</ExternalValue>  
+	<InternalValue>null</InternalValue>
+</GenericGameElement>

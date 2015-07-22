@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Xml.Serialization;
 using System.Xml;
-//Atributos adicionales que pueda tener una carta, token u obj de juego
+//Generic Game Element Attributes, atributos adicionales que pueda tener un obj. de juego
 
 [XmlRoot("GenericGameElement")]
 public class GGEAttr {
