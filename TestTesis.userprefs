@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Source\GameEnviroment.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Source\Scripts\Load.cs">
     <Files>
-      <File FileName="Assets\Source\GameEnviroment.cs" Line="37" Column="3" />
-      <File FileName="Assets\Source\GenericGameElement.cs" Line="14" Column="22" />
-      <File FileName="Assets\Source\Scripts\Load.cs" Line="21" Column="23" />
-      <File FileName="Assets\Source\GameObjectGenerator.cs" Line="89" Column="20" />
+      <File FileName="Assets\Source\Scripts\Load.cs" Line="30" Column="20" />
+      <File FileName="Assets\Source\GameEnviroment.cs" Line="93" Column="53" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

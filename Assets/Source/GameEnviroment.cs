@@ -6,6 +6,7 @@ using System.IO;
 using System.Text;
 using System;
 using System.Xml.Serialization;
+using UnityEngine.UI;
 /*
  * Esta clase genera los objetos de juego (como cartas, tokens y demas) que fueron leidos por GameEnviroment
 Se podria cargar desde Load marcando a los objetos como Object.DontDestroyonLoad, pero cree otra clase para 
@@ -26,12 +27,14 @@ public class GameEnviroment : MonoBehaviour{
 	public GameObject ggeToSpawn ;
 	public GameObject clone;
 	public Sprite spriteFF;
-
+	public Text debugT;
 
 	//=============================
 	//Metodos
 	//=============================
-
+	void Update(){
+		//debugT.text = Application.persistentDataPath;
+	}
 	void Start(){
 		SpawnObjects ();
 		Debug.Log ("TERMINE");
@@ -41,13 +44,14 @@ public class GameEnviroment : MonoBehaviour{
 	public void SpawnObjects(){
 		//En algunos casos (depende de que se cree) el objeto aparece fuera del canvas y por ende no se muestra, seteandole el parent "vuelve" al canvas
 		//clone.parent = gameObject.transform;
-		int xCoord = -150;
+		int xCoord = -8;
 		foreach (GenericGameElement gge in GameObjectGenerator.gges) {
+
 			gge.printAtt();
 			//Genero una instancia del prefab Card
 			Debug.Log (ggeToSpawn);
-			clone = Instantiate(ggeToSpawn, new Vector2(xCoord,0), Quaternion.identity) as GameObject;
-			xCoord+=60;
+			clone = Instantiate(ggeToSpawn, new Vector3(xCoord,0,0), Quaternion.identity) as GameObject;
+			xCoord+=1;
 			TextureLoad (gge.FrontImage);
 			Debug.Log("Prefab/Carta creada");
 			//Asigno el sprite "back" al prefab (nota que si el obj, no tiene un "SpriteRenderer" esto devuelve null
@@ -86,15 +90,16 @@ public class GameEnviroment : MonoBehaviour{
 		path = "file:///" + partialPath + "images/"+frontImage;
 		Debug.Log(path);
 		#elif UNITY_ANDROID
-		path = "jar:file://"+ partialPath + "!/loveLetter/images/back.png";
+		path = "jar:file://"+ partialPath + "!images/"+frontImage;
 		#elif UNITY_IOS
-		path = "file:" + partialPath + "/loveLetter/images/back.png";
+		path = "file:" + partialPath + "images/"+frontImage;
 		#else
 		//Desktop (Mac OS or Windows)
 		partialPath = partialPath.Replace("c:/","C://");
 		partialPath = partialPath.Replace("C:/","C://");
-		path = "file:///"+ partialPath + "/loveLetter/images/back.png";
+		path = "file:///"+ partialPath + "images/"+frontImage;
 		#endif
+		debugT.text = path;
 		return path;
 	}
 }
