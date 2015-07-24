@@ -59,6 +59,8 @@ public class GameEnviroment : MonoBehaviour{
 			Debug.Log("Prefab/Carta creada");
 			//Asigno el sprite "back" al prefab (nota que si el obj, no tiene un "SpriteRenderer" esto devuelve null
 			this.clone.GetComponent<SpriteRenderer>().sprite = spriteFF;
+			this.clone.GetComponent<CardScript>().carta = gge;
+
 		}
 
 		//=============================

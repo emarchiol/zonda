@@ -51,6 +51,8 @@
      <Compile Include="Assets\Source\GameEnviroment.cs" />
      <Compile Include="Assets\Source\GameObjectGenerator.cs" />
      <Compile Include="Assets\Source\GenericGameElement.cs" />
+     <Compile Include="Assets\Source\IGenericGameElement.cs" />
+     <Compile Include="Assets\Source\Scripts\CardScript.cs" />
      <Compile Include="Assets\Source\Scripts\Load.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
