@@ -44,7 +44,6 @@ public class GameObjectGenerator {
 
 	//Abrir el XML y leerlo
 	public void ReadCoreXML(string path){
-		
 		GenericGameElement gge;
 		string xmlValue;
 		//Ubico el archivo xml principal

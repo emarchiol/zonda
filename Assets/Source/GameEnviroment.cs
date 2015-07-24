@@ -27,7 +27,6 @@ public class GameEnviroment : MonoBehaviour{
 	public GameObject ggeToSpawn ;
 	public GameObject clone;
 	public Sprite spriteFF;
-	public Text debugT;
 
 	//=============================
 	//Metodos
@@ -42,8 +41,11 @@ public class GameEnviroment : MonoBehaviour{
 	
 	//Creo los items que necesito en la mesa
 	public void SpawnObjects(){
-		//En algunos casos (depende de que se cree) el objeto aparece fuera del canvas y por ende no se muestra, seteandole el parent "vuelve" al canvas
-		//clone.parent = gameObject.transform;
+
+
+		//=============================
+		//Cartas
+		//=============================
 		int xCoord = -8;
 		foreach (GenericGameElement gge in GameObjectGenerator.gges) {
 
@@ -51,12 +53,17 @@ public class GameEnviroment : MonoBehaviour{
 			//Genero una instancia del prefab Card
 			Debug.Log (ggeToSpawn);
 			clone = Instantiate(ggeToSpawn, new Vector3(xCoord,0,0), Quaternion.identity) as GameObject;
+			clone.transform.Rotate(new Vector3(90,0,0));
 			xCoord+=1;
 			TextureLoad (gge.FrontImage);
 			Debug.Log("Prefab/Carta creada");
 			//Asigno el sprite "back" al prefab (nota que si el obj, no tiene un "SpriteRenderer" esto devuelve null
 			this.clone.GetComponent<SpriteRenderer>().sprite = spriteFF;
 		}
+
+		//=============================
+		//Tokens
+		//=============================
 	}
 
 	//Carga la textura desde la imagen
@@ -99,7 +106,6 @@ public class GameEnviroment : MonoBehaviour{
 		partialPath = partialPath.Replace("C:/","C://");
 		path = "file:///"+ partialPath + "images/"+frontImage;
 		#endif
-		debugT.text = path;
 		return path;
 	}
 }

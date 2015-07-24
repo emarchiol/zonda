@@ -1,13 +1,14 @@
 fileFormatVersion: 2
 guid: 116f3f94525344b40bfd7625072fa368
-timeCreated: 1437509637
+timeCreated: 1437597186
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
   defaultReferences:
-  - card: {fileID: 195658, guid: 7785858c9b40c274992e2d0591872dea, type: 2}
-  - clone: {fileID: 195658, guid: 7785858c9b40c274992e2d0591872dea, type: 2}
+  - ggeToSpawn: {fileID: 170870, guid: 29bccd8b67393ab418b3271b275911a3, type: 2}
+  - clone: {instanceID: 0}
   - spriteFF: {instanceID: 0}
+  - debugT: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
