@@ -1,11 +1,11 @@
 <game>
-<Collection type="GenericGameElement" quantity="5" name="guard"/>
-<Collection type="GenericGameElement" quantity="2" name="priest"/>
-<Collection type="GenericGameElement" quantity="2" name="baron"/>
-<Collection type="GenericGameElement" quantity="2" name="handmaid"/>
-<Collection type="GenericGameElement" quantity="2" name="prince"/>
-<Collection type="GenericGameElement" quantity="1" name="king"/>
-<Collection type="GenericGameElement" quantity="1" name="countess"/>
-<Collection type="GenericGameElement" quantity="1" name="princess"/>
+<Collection type="Card" quantity="5" name="guard"/>
+<Collection type="Card" quantity="2" name="priest"/>
+<Collection type="Card" quantity="2" name="baron"/>
+<Collection type="Card" quantity="2" name="handmaid"/>
+<Collection type="Card" quantity="2" name="prince"/>
+<Collection type="Card" quantity="1" name="king"/>
+<Collection type="Card" quantity="1" name="countess"/>
+<Collection type="Card" quantity="1" name="princess"/>
 <Collection type="Board" quantity="1" name="mesa"/>
 </game>

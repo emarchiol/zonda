@@ -12,11 +12,10 @@ public class Load : MonoBehaviour {
 	}
 
 	public void Game(string path){
-		//Terminamos de cargar los objetos nos vamos a la scene de juego
-		//Creo un GameObjectGenerator que se encargara de revisar los XML, crear los objetos necesarios y popular el singleton GameObjectCollection
-		GameObjectGenerator gog = new GameObjectGenerator();
+		//Terminamos de cargar los objetos nos vamos a la scene de juego Creo un GameObjectGenerator que se encargara de revisar los XML, crear los objetos necesarios y popular el singleton GameObjectCollection
+		CollectionGenerator cg = new CollectionGenerator();
 		Load.path = path;
-		gog.ReadCoreXML (path);
+		cg.ReadCoreXML (path);
 
 		//Terminamos de cargar los objetos nos vamos a la scene de juego
 		this.Scene (2);
